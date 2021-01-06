@@ -1,8 +1,6 @@
 cmake_minimum_required(VERSION 2.8.3)
 project(slamware_ros_sdk)
 
-linux-aarch64-gcc5.4
-
 find_path(slamware_sdk_INCLUDE_DIR rpos/rpos.h ${PROJECT_SOURCE_DIR}/../slamware_sdk/include)
 #find_path(slamware_sdk_LIBRARY librpos_framework.a ${PROJECT_SOURCE_DIR}/../slamware_sdk/lib/linux-x86_64-gcc5.4)
 find_path(slamware_sdk_LIBRARY librpos_framework.a ${PROJECT_SOURCE_DIR}/../slamware_sdk/lib/linux-aarch64-gcc5.4)
